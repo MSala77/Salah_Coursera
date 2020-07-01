@@ -28,7 +28,7 @@ void print_array(unsigned char test[])
   printf("Array \n");
   for(int i=0; i<SIZE-1; i++)
   {
-    printf("%c\t", test[i]);
+    printf("%d\t", test[i]);
     if(!(i%8))
     {
       printf("\n");

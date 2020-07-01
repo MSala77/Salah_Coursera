@@ -46,6 +46,7 @@ median=find_median(test);
 maximum=find_maximum(test);
 minimum=find_minimum(test);
 print_statistcs(maximum,minimum,median,mean);
+print_array(test); //after sorting
 }
 
 /* Add other Implementation File Code Here */
